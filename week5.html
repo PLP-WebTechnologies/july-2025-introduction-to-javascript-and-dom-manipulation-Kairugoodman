@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content="width= device-width,initial-scale=1.0">
+        <title>A responsive web page</title>
+        <link rel="stylesheet" href="week5.css">
+
+    </head>
+    <body>
+        <!-- header section-->
+         <h1>My Responsive Website</h1>
+         <nav>
+            <ul class="nav_links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+         </nav>
+         <section class="sector">
+            <div class="sector-text">
+               <h2>Welcome to My Website!</h2>
+                <p>This is a responsive website and its one of my first website to ever make!</p>
+            </div>
+        
+         </section>
+
+         <section class="sector">
+            <div class="sector-text">
+                <h2>Characteristics of a Responsive Website</h2>
+                    <ul>
+                        <li>Flexible Layouts where Uses fluid grids that adjust to different screen sizes.</li>
+                        <li>Responsive Images where Images scale and resize without breaking the layout.</li>
+                        <li>Media Queries where CSS rules adapt styles for desktops, tablets, and mobiles.</li>
+                        <li>Mobile-Friendly Navigation where Menus and buttons are easy to use on small screens.</li>
+                    </ul>
+            </div>
+         </section>
+         <!-- Buttons for JavaScript interaction -->
+         <section class="sector">
+            <h2>Try Some Interactions</h2>
+            <button id="greetBtn">Click Me for Greeting</button>
+            <button id="listBtn">Generate Number List</button>
+            
+            <!-- Container for dynamic JS content -->
+            <div id="output"></div>
+         </section>
+         <script src="week5.js"></script>
+
+    </body>
+</html>
